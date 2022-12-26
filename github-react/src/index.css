@@ -1,0 +1,88 @@
+.App {
+  font-family:Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  word-wrap: break-word;
+  text-align: justify;
+
+}
+
+.card {
+  width: 80%;
+  padding: 20px;
+  border: 3px solid gray;
+  border-radius: 20px;
+}
+
+ h1{
+  text-align: center;
+}
+
+ ul {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  list-style: disc outside none;
+  padding-inline-start: 10px;
+}
+
+ ul li {
+  margin-left: 1em;
+  display: list-item;
+  text-align: -webkit-match-parent;
+  font-size: 20px;
+}
+
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+
+ pre{
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+  overflow: scroll;
+  /* white-space: pre-wrap;
+  word-wrap: break-word;
+  text-align: justify; */
+}
+
+
+
+.reactMarkDown img{
+  width: 100%;
+}
+
+
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 25px;
+}
+p {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 14px;
+  }
+  ul li{
+    font-size: 14px;
+  }
+}
